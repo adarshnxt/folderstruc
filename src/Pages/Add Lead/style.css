@@ -1,0 +1,314 @@
+.referenceContainer .mui-dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.referenceContainer .mui-dropdown-wrapper img {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.Radio {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Radio--large {
+  font-size: 2rem;
+}
+
+.Radio-Input {
+  margin: 0 0.5rem 0;
+  width: 20px;
+}
+
+.Source-Type {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.19px;
+  color: #16244f;
+}
+
+.Add-Lead---Electric {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+}
+
+.AddLeadContainer .Source-info {
+  color: gray;
+}
+
+.Source-Type-OTP-style {
+  display: flex;
+}
+
+.AddLeadContainer .Source-Type-btn-Theme {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.OtpVerificationContainer .Source-Type-information-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.OtpVerificationContainer .Source-Type-btn-Theme {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.OtpVerificationContainer .Source-info {
+  color: gray;
+}
+
+.OtpVerificationContainer .resendOTP {
+  color: #334e9e;
+  cursor: pointer;
+}
+
+.SentLinkContainer .Source-Type-information-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.SentLinkContainer .Source-Type-btn-Theme {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.SentLinkContainer .SentImage {
+  width: 50px;
+}
+
+.SentLinkContainer .consent-info {
+  color: #334e9e;
+  font-weight: 700;
+}
+
+.SentLinkContainer .border-top {
+  border-top: 2px solid black;
+}
+
+.sent-info {
+  color: gray;
+  font-size: 13px;
+}
+
+.OtpVerificationContainer input {
+  font-size: 18px;
+  padding: 0px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  -webkit-text-security: disc !important;
+}
+
+.referenceContainer .textField {
+  width: 100%;
+}
+
+.referenceContainer .MuiSelect-icon {
+  color: #334e9e !important;
+  display: none;
+}
+
+.referenceContainer .MuiFormControl-root {
+  width: 100%;
+}
+
+.referenceContainer .MuiSvgIcon-root {
+  color: #334e9e;
+}
+
+.searchIcon {
+  width: 18px;
+}
+
+.AddLeadContainer span.ant-radio+* {
+  padding-right: 8px;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.Source-Type-btn-Theme {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+option:hover {
+  background-color: #488f8f !important;
+}
+
+.LeadList thead>tr>th {
+  background-color: #334e9e !important;
+  width: 1180px !important;
+  height: 55px !important;
+  margin: 15px 30px 465px 47px !important;
+  object-fit: contain !important;
+  box-shadow: 0 2px 4px 0 rgba(181, 166, 166, 0.5) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #f1f1f1;
+}
+
+.table-striped-rows thead {
+  background-color: #eceff4;
+}
+
+.cancled-button {
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.17px;
+  min-width: 110px;
+  height: 38px;
+  border-radius: 100px !important;
+  text-align: center;
+  font-size: 16px;
+  font-family: Nunito;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  z-index: 1;
+  color: #fff;
+  background: #334e9e;
+  border: none;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: unset !important;
+}
+
+.ant-radio-button-wrapper {
+  border: unset !important;
+}
+
+.plusIcon svg {
+  margin-bottom: 6px;
+}
+
+.boxShadow {
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.11);
+  padding: 0.1rem;
+}
+
+.searchLead {
+  border-radius: 2em !important;
+}
+
+.searchLead {
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.LeadList .ant-input {
+  border-radius: 23px !important;
+}
+
+.leadToggle {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #fff !important;
+}
+
+.fab-add-parent {
+  background-color: #334e9e !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  width: 140px;
+  text-transform: capitalize !important;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.addIconFab {
+  background-color: #102052 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 0.4em !important;
+}
+
+.LeadList .searchInput {
+  position: relative;
+  width: 200px;
+}
+
+.LeadList .searchInput .closeIcon {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  right: 10px;
+  color: grey;
+}
+
+.LeadList .searchInput .closeIcon:hover {
+  color: #40a9ff;
+}
+
+.LeadList .ant-pagination-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LeadList .ant-card, .ant-card-bordered {
+  border: none;
+}
+
+.sentLink .verifiedHeading {
+  text-align: center;
+  color: #09204c;
+  font-size: large;
+  font-weight: 600;
+}
+
+.sentLink .verifiedData {
+  text-align: center;
+  color: green;
+}
+
+.sentLink .successImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

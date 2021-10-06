@@ -1,0 +1,128 @@
+.QDe-para {
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 30%;
+}
+
+.QDe-head {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+}
+
+.QDe-para2 {
+  width: 200px;
+  height: 38px;
+  margin: 20px 56px 49px 55px;
+  object-fit: contain;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.26px;
+  text-align: center;
+  color: #535353;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sorry {
+  letter-spacing: -0.03px;
+  text-align: center;
+  color: #417505;
+}
+
+.QDe-save {
+  display: flex;
+  text-align: center;
+  //  border:2px solid pink;
+  justify-content: center;
+}
+
+.QDe-inner-save {
+  margin: 0;
+  width: 300px;
+  justify-self: center;
+}
+
+.QDe-success-details {
+  display: flex;
+  justify-content: center;
+  .QDe-sd {
+    margin: 0 10px;
+  }
+}
+
+.QDe-img-success {
+  display: grid;
+  // border:5px solid goldenrod;
+  justify-content: center;
+  align-items: center;
+
+  .QDe-img-success-img {
+    height: 340px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.successTxt {
+  font-weight: 600;
+  text-align: center;
+}
+
+.successAmount {
+  text-align: center;
+}
+.lineSuccess::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  background-color: #dfdfdfd8;
+  width: 60%;
+  left: 20%;
+  right: 20%;
+}
+
+.paraSuccess {
+  color: #1a1a1a;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Successcontainer {
+  padding: 0 20%;
+  .buttonSuccessPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+}
+
+.mainContainerSuccess {
+  background-image: url(../../assets/Images/group.svg);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  width: 100%;
+  // margin-top: 30%;
+  // height: 100vh;
+}

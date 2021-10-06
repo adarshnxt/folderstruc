@@ -1,0 +1,114 @@
+.mainDashboardContainer {
+    margin: 0 12%;
+}
+
+.Hello-username {
+    /* width: 183px; */
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #09204c;
+    /* position: absolute; */
+    /* left: 43%;
+    margin-bottom: 30px;
+    transform-origin: center center */
+}
+
+.card1 {
+    width: 181.4px;
+    height: 181px;
+    border: solid 2px #c2d0fc;
+    background-color: #f7f3f3;
+    border-radius: 50%;
+    /* background-image: url(../../assets/Images/oval.png); */
+}
+
+.New-Two-Wheeler {
+    width: 81.8px;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #625f5f;
+    margin-left: 27%;
+    margin-top: 25%;
+}
+
+.count1 {
+    width: 91px;
+    height: 51px;
+    margin-left: 25%;
+    margin-top: -15px;
+    font-size: 37.8px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e9e;
+}
+
+.rightarrow1 {
+    width: 7.7px;
+    height: 15.4px;
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.card2 {
+    min-width: 181.4px;
+    min-height: 181px;
+    border: solid 2px #c2d0fc;
+    background-color: #f7f3f3;
+    border-radius: 50%;
+    margin-top: 65%;
+}
+
+.card3 {
+    min-width: 181.4px;
+    min-height: 181px;
+    border: solid 2px #c2d0fc;
+    background-color: #f7f3f3;
+    border-radius: 50%;
+    margin-top: 12%;
+}
+
+.card4 {
+    margin-top: 80%;
+    min-width: 181.4px;
+    min-height: 181px;
+    border: solid 2px #c2d0fc;
+    background-color: #f7f3f3;
+    border-radius: 50%;
+}
+
+.dashboard {
+    min-height: 100vh;
+    min-width: auto;
+}
+
+.containerDashParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* min-width: 80vw;
+    min-height: 80vh; */
+}
+
+.bikeImage {
+    width: 85%;
+    text-align: center;
+    height: clamp(6em,8em,10em);
+    overflow: hidden;
+    z-index: -50;
+}

@@ -1,0 +1,146 @@
+$navbarHeight: 64px;
+$primary_color: #334e9e;
+$primary_dark_color: #09204c;
+$background_color: #f8f9fa;
+$placeholder_color: rgba(0, 0, 0, 0.54);
+.uploadWrapper {
+  display: flex;
+}
+
+.QDe-para {
+  /* width: 183px; */
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.QDe-para-normal {
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+}
+.uploadContainer {
+  .ant-upload-span {
+    width: 100px;
+  }
+}
+.QDe-head {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #09204c;
+}
+
+.mainWrapper {
+  display: flex;
+}
+
+.titleCenterAlign {
+  align-self: center;
+}
+
+.uploadButton {
+  padding-top: 0.5rem;
+}
+
+.inputWrapper {
+  .ant-picker {
+    border: 0px;
+  }
+  .ant-picker-focused {
+    box-shadow: none;
+  }
+
+  .ant-select {
+    .ant-select-selector {
+      border: 0px;
+    }
+  }
+
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 2px solid #334e9e;
+  label {
+    color: $placeholder_color;
+    font-size: 14px;
+    position: absolute;
+  }
+  label,
+  input {
+    border: 0px;
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+  input:valid {
+    background: white;
+  }
+  input:focus {
+    outline: 0px;
+    box-shadow: none;
+    // opacity: inherit;
+  }
+
+  #datePickerLabel,
+  input:focus + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: top left;
+    transform: translate(0, -1.5rem) scale(0.75);
+  }
+}
+
+.transparentWrapper {
+  label {
+    z-index: 19;
+  }
+
+  input {
+    z-index: 20;
+    opacity: 0;
+  }
+}
+
+.labelWrapper {
+  .labelName {
+    font-size: 14px;
+    color: $primary_color;
+  }
+  .labelData {
+    font-weight: bold;
+    font-size: 16px;
+    color: $primary_dark_color;
+  }
+}
+
+.tableWrapper {
+  .ant-table-thead {
+    tr {
+      th {
+        background-color: $primary_color;
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+}

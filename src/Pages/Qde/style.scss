@@ -1,0 +1,593 @@
+$container-margin: 50px;
+$container-top-margin: $container-margin * -1;
+.qdeContainer {
+  .qdeContentWrapper {
+    background: white;
+    margin: 0 auto;
+    margin-top: $container-top-margin;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(181, 166, 166, 0.5);
+    .qdeContentContainer {
+      padding-top: $container-margin;
+    }
+  }
+}
+.qdeContainer {
+  .stepsWrapper {
+    display: flex;
+    justify-content: space-around;
+    .stepsContainer {
+      width: 80%;
+      .ant-steps {
+        .ant-steps-item {
+          .ant-steps-item-container {
+            .ant-steps-item-content {
+              .ant-steps-item-title {
+                font-size: 14px;
+                line-height: 15px;
+              }
+            }
+          }
+        }
+        .ant-steps-item-active {
+          .ant-steps-item-container {
+            .ant-steps-item-content {
+              .ant-steps-item-title {
+                color: #334e9e;
+                font-weight: bold;
+              }
+            }
+          }
+          .ant-steps-item-tail::after {
+            background-color: #334e9e;
+          }
+          .ant-steps-item-icon {
+            background-color: #334e9e;
+            border-color: #334e9e;
+          }
+        }
+      }
+    }
+  }
+  .anticon svg {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+}
+
+.pangstcontainer {
+  .headerLabel {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    color: #334e9e;
+  }
+  .MuiFormControl-root {
+    width: 100%;
+    font-size: 14px;
+    // .MuiSelect-root {
+    //   padding-top: 0px;
+    //   padding-bottom: 0px;
+    // }
+  }
+  .typeRow {
+    margin: 0px;
+    padding-bottom: 40px;
+    .MuiInputBase-root {
+      // font-size: inherit;
+    }
+  }
+}
+.pangstcontainer {
+  .documentRow {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    .save-button {
+      float: right;
+    }
+    .headerLabel {
+      span {
+        font-size: 12.4px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.15px;
+        color: #818282;
+      }
+    }
+    .ant-radio-group {
+      margin-bottom: 24px;
+    }
+    .uploadedImageWrapper {
+      position: relative;
+      display: inline-block;
+      img {
+        width: 300px;
+        height: 200px;
+      }
+      span {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        cursor: pointer;
+        height: 18px;
+        width: 18px;
+        background-color: #5f5c60;
+        border-radius: 50%;
+        padding-left: 5px;
+        color: white;
+      }
+    }
+  }
+}
+
+.pangstcontainer {
+  .panDetailsRow {
+    #date-picker-label {
+      left: unset;
+    }
+    .ant-picker {
+      width: 100%;
+      margin-top: 16px;
+    }
+  }
+}
+
+.pangstcontainer {
+  .verifiedRow {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonRow {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Upload-Photo {
+  margin: 10px 0 1.3px 7.7px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  // line-height: 2.86;
+  letter-spacing: normal;
+  color: #16244f;
+}
+
+.required-star {
+  color: #16244f;
+}
+
+.verified-Status {
+  object-fit: contain;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.06px;
+  color: #417505;
+  margin-right: 1%;
+}
+
+.additionalDetails-Container {
+  padding: 4%;
+  .Registered-Address {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    color: #334e9e;
+  }
+
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    position: relative;
+    color: #334e9e;
+    padding: 12px 16px;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.18px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .documentRow {
+    padding-bottom: 5%;
+  }
+
+  .buttonRow {
+    .enabledButtonRow {
+      cursor: pointer;
+    }
+    .buttonIcon {
+      text-align: center;
+      font-size: 30px;
+      border-radius: 50%;
+      background-color: #334e9e;
+      width: 60px;
+      height: 60px;
+      color: white;
+    }
+    .buttonName {
+      width: 47px;
+      height: 28px;
+      margin: 5px 75px 10px 5px;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: center;
+      color: #16244f;
+    }
+  }
+
+  .disabledButtonRow {
+    cursor: not-allowed;
+    .buttonIcon {
+      background-color: grey;
+    }
+  }
+
+  .Shape {
+    width: 18px;
+    height: 18px;
+    margin: 10px 91.5px 36px 14.7px;
+  }
+  .sub-title {
+    color: #334e9e;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+  }
+
+  .ant-upload.ant-upload-select-picture-card {
+    width: 100%;
+    height: 150px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #fafafa;
+    border: 1px dashed #d9d9d9;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+  }
+
+  .typeRow {
+    margin-top: 3%;
+  }
+  .MuiSelect-icon {
+    display: none;
+  }
+  .buttonSave {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.references-Container {
+  padding: 4%;
+
+  .references-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    color: #334e9e;
+  }
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: #334e9e;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+}
+
+.MuiSelect-icon {
+  display: none !important;
+}
+
+.buttons-position {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadImage {
+  width: 59px;
+  height: 59px;
+  margin: 0 7.7px 0 0;
+  padding: 15.9px 14.7px;
+  background-color: #334e9e;
+  border-radius: 50%;
+  font-size: 30px;
+  vertical-align: inherit;
+  display: flex;
+  color: white;
+  // position: absolute;
+}
+
+.takeaPhoto {
+  width: 59px;
+  height: 59px;
+  margin: 0 7.7px 0 0;
+  padding: 14.9px 15.9px 15.9px 14.9px;
+  background-color: #334e9e;
+  border-radius: 50%;
+  font-size: 30px;
+  vertical-align: inherit;
+  display: flex;
+  color: white;
+  // position: absolute;
+}
+
+.verifyButtonTheme {
+  margin-top: -10px;
+}
+
+.verifiedTheme {
+  display: flex;
+  margin-left: 5%;
+}
+
+.references-Container {
+  .ant-input {
+    border: 1px solid rgb(168, 168, 168);
+  }
+}
+
+.addDetails {
+  margin-top: 20px;
+}
+
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin-bottom: 24px;
+  overflow: hidden;
+  background: #f7f7f7;
+  border: 0px;
+  border-radius: 2px;
+}
+
+.businessDetailsMain {
+  .mui-dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .mui-dropdown-wrapper img {
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.businessDetailsMain .mui-dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.businessDetailsMain .mui-dropdown-wrapper img {
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  width: 20px;
+  height: 20px;
+}
+.entityContainer {
+  .mui-dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .mui-dropdown-wrapper img {
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    top: 1px;
+  }
+}
+
+// -----------------business detail-------------------------->
+.btnBusinessCancel {
+  margin-right: 10px;
+}
+
+.btnDropdownCommonArrow {
+  position: absolute !important;
+  right: 0 !important;
+  padding: 3px !important;
+}
+.panelssss {
+  background-color: white !important;
+}
+.otherr {
+  background-color: #ececec !important;
+}
+
+.ant-steps-label-vertical .ant-steps-item-tail {
+  margin-left: 58px;
+  padding: 3px 12px;
+}
+
+.loanSummaryWrapper
+  .ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-container
+  .ant-steps-item-tail::after {
+  background-color: #417505;
+  height: 2px;
+}
+
+.loanSummaryWrapper
+  .ant-steps
+  .ant-steps-item-active
+  .ant-steps-item-tail::after {
+  background-color: #334e9e;
+  height: 2px;
+}
+
+.schemeTxt {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.schemeContainer {
+  margin: 0 40px;
+  .radioScheme {
+    margin-right: 20px;
+  }
+}
+
+// loan details
+
+.para-slider {
+  color: #16244f;
+  font-weight: bold;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+.para-font-blue {
+  color: #16244f;
+  font-weight: bold;
+  font-size: 16px;
+}
+.para-slider-semi-bold {
+  color: #16244f;
+  font-weight: 300;
+  font-size: 15px;
+}
+.para-400 {
+  color: #16244f;
+  font-weight: 400;
+}
+.passportWrapper,
+.dlWrapper {
+  .MuiFormControl-root {
+    width: 100%;
+    font-size: 14px;
+  }
+  #date-picker-label {
+    left: unset;
+  }
+  .ant-picker {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+
+.inputSliderTxt {
+  width: 50px;
+}
+
+.qde-loandetails-picker {
+  margin-top: 15px;
+}
+
+.cross-sign-position {
+  top: 0px !important;
+  right: 23% !important;
+}
+
+.displayFlex {
+  display: "flex";
+}
+
+.loanDetails {
+  .paddingVertical {
+    height: 30px;
+  }
+  .totalAmount{
+    display: flex;
+  }
+  .pr-20{
+    padding-right:20px ;
+  }
+  .pl-20{
+    padding-left: 20px;
+  }
+
+  .loanDetailDatePicker{
+    width: "80%";
+    margin-top: 18px;
+  }
+
+  .amtSelected{
+    width: 300px;
+  }
+}
+.wrapperSelfie {
+  padding-left: 5%;
+}
+
+.labelRef {
+  color: gray;
+  padding: 0 0.2em;
+}
+
+.personalCrossIcon{
+  // position: absolute;
+      position: absolute;
+    top: 0px;
+    right: -5px;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    background-color: #5f5c60;
+    border-radius: 50%;
+    padding-left: 5px;
+    color: white;
+}
+
+    .uploadedImageWrapperPersonal {
+      position: relative;
+      display: inline-block;
+      img {
+        width: 300px;
+        height: 200px;
+      }
+      span {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        cursor: pointer;
+        height: 18px;
+        width: 18px;
+        background-color: #5f5c60;
+        border-radius: 50%;
+        padding-left: 5px;
+        color: white;
+      }
+    }
+
+
+
+
